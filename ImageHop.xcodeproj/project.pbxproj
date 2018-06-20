@@ -14,6 +14,7 @@
 		C324F78C20D9D6D500E69070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C324F78A20D9D6D500E69070 /* LaunchScreen.storyboard */; };
 		C324F79720D9D6D500E69070 /* ImageHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324F79620D9D6D500E69070 /* ImageHopTests.swift */; };
 		C324F7A220D9D6D500E69070 /* ImageHopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324F7A120D9D6D500E69070 /* ImageHopUITests.swift */; };
+		C324F7B020D9D79700E69070 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = C324F7AF20D9D79700E69070 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C324F79D20D9D6D500E69070 /* ImageHopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageHopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C324F7A120D9D6D500E69070 /* ImageHopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHopUITests.swift; sourceTree = "<group>"; };
 		C324F7A320D9D6D500E69070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C324F7AF20D9D79700E69070 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C324F78020D9D6D400E69070 /* ImageHop */ = {
 			isa = PBXGroup;
 			children = (
+				C324F7AF20D9D79700E69070 /* Images */,
 				C324F78120D9D6D400E69070 /* AppDelegate.swift */,
 				C324F78320D9D6D400E69070 /* ViewController.swift */,
 				C324F78520D9D6D500E69070 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C324F7B020D9D79700E69070 /* Images in Resources */,
 				C324F78C20D9D6D500E69070 /* LaunchScreen.storyboard in Resources */,
 				C324F78920D9D6D500E69070 /* Assets.xcassets in Resources */,
 				C324F78720D9D6D500E69070 /* Main.storyboard in Resources */,
@@ -428,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageHop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.ImageHop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageHop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dudage.ImageHop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
