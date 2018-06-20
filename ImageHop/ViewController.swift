@@ -58,9 +58,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func setSpeed(_ sender: Any) {
+        bunnyView1.animationDuration = Double(2.0 - speedSlider.value)
+        bunnyView2.animationDuration = bunnyView1.animationDuration + Double(arc4random_uniform(10))/10.0
+        bunnyView3.animationDuration = bunnyView1.animationDuration + Double(arc4random_uniform(10))/10.0
+        bunnyView4.animationDuration = bunnyView1.animationDuration + Double(arc4random_uniform(10))/10.0
+        bunnyView5.animationDuration = bunnyView1.animationDuration + Double(arc4random_uniform(10))/10.0
+        
+        bunnyView1.startAnimating()
+        bunnyView2.startAnimating()
+        bunnyView3.startAnimating()
+        bunnyView4.startAnimating()
+        bunnyView5.startAnimating()
+        
+        toggleButton.setTitle("Sit", for:  UIControlState.normal)
+        let hopRateString = String(format: "%1.2f", 1/(2-self.speedSlider.value))
+        hopsPerSecond.text = hopRateString
     }
+    
     @IBAction func setIncrement(_ sender: Any) {
+        speedSlider.value = Float(speedStepper.value)
+        setSpeed({})
     }
+    
     @IBAction func toggleAnimation(_ sender: Any) {
         if (bunnyView1.isAnimating){
             bunnyView1.stopAnimating()

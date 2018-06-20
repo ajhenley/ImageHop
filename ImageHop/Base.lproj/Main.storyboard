@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -97,7 +97,6 @@
                         <outlet property="bunnyView4" destination="g0L-Qp-q8C" id="hN5-LY-46Q"/>
                         <outlet property="bunnyView5" destination="IqE-ih-tux" id="mIV-HO-fRS"/>
                         <outlet property="hopsPerSecond" destination="KBG-G1-DWG" id="vr3-Ua-rvC"/>
-                        <outlet property="setSpeed" destination="Uxj-Hh-B82" id="DkJ-iA-WEV"/>
                         <outlet property="speedSlider" destination="Uxj-Hh-B82" id="bzL-Ug-6XZ"/>
                         <outlet property="speedStepper" destination="ysj-Gf-LPn" id="5Ms-jk-Ywc"/>
                         <outlet property="toggleButton" destination="l75-UT-RWX" id="hkk-td-Bmx"/>
